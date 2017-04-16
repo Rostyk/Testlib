@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = 'DarkMatter'
   s.source   = { :git => 'https://github.com/Rostyk/Testlib.git', :tag => s.version.to_s }
   s.preserve_paths = '*.a'
-  s.libraries = 'testlibrarydebug', 'testlibraryrelease'
+  s.libraries = 'sqlcipher'
   s.xcconfig     =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/DMLimitedpod"' }
   s.platform = :ios
 end
