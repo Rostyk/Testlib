@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'DMLimitedpod'
-  s.version  = '1.0.0'
+  s.version  = '1.0.1'
   s.license  = 'BSD'
   s.summary  = 'Limited pod for DarkMatter'
   s.description  = 'Pod to test the limited access to the honey library'
