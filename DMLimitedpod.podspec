@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/Rostyk/Testlib.git', :tag => s.version.to_s }
   s.preserve_paths = '*.a'
   s.libraries = 'testlibrary'
-  s.xcconfig     =  { 'LIBRARY_SEARCH_PATHS' => '$(inherited) "$(PODS_ROOT)"' }
+  s.xcconfig     =  { 'LIBRARY_SEARCH_PATHS' => '$(inherited) "$(PODS_ROOT)/"' }
   s.platform = :ios
 end
