@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'Testlib'
-  s.version  = '1.0.4'
+  s.version  = '1.0.5'
   s.license  = 'BSD'
   s.summary  = 'Test statis lib'
   s.description  = 'Pod to test static library as dependency'
